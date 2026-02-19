@@ -2,8 +2,8 @@
 
 Age of Mythology sound effects for Claude Code.
 
-- **Waiting for input:** "Prostagma" — plays when Claude needs your attention (permission prompts, idle, questions)
-- **Task complete:** Victory fanfare — plays when Claude finishes a response
+- **Waiting for input:** "Prostagma" plays when Claude needs your attention (permission prompts, idle, questions)
+- **Task complete:** Victory noise plays when Claude finishes a response
 
 Works on Windows, macOS, and Linux.
 
