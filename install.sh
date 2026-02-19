@@ -39,7 +39,6 @@ const hookOpts = { async: true, timeout: 10 };
 
 settings.hooks.Notification = [
   { matcher: 'permission_prompt', hooks: [{ type: 'command', command: playRandom, ...hookOpts }] },
-  { matcher: 'idle_prompt', hooks: [{ type: 'command', command: playRandom, ...hookOpts }] },
   { matcher: 'elicitation_dialog', hooks: [{ type: 'command', command: playRandom, ...hookOpts }] }
 ];
 
@@ -53,7 +52,6 @@ console.log('Hooks installed successfully!');
 console.log('');
 console.log('  User input sounds (userinput/*.wav) play when:');
 console.log('    - Claude needs tool permission');
-console.log('    - Claude is idle, waiting for your input');
 console.log('    - Claude asks you a question');
 console.log('');
 console.log('  Completion sound (done/win.wav) plays when:');
